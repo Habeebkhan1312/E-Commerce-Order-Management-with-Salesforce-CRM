@@ -1,62 +1,55 @@
-E-Commerce Order Management with Salesforce CRM
+🚀 E-Commerce Order Management with Salesforce CRM
 
-This full-stack web application integrates an e-commerce platform with Salesforce CRM, enabling seamless order management and customer relationship management.
+A full-stack web application integrating an e-commerce platform with Salesforce CRM for seamless order and customer management.
 
-Features
+✨ Features
 
-Product Browsing: Customers can browse a catalog of products.
+🛍 Product Browsing – Customers can browse the product catalog.
 
-Order Placement: Customers can place orders through the platform.
+🛒 Order Placement – Add products to cart and place orders.
 
-Order Tracking: Customers can track the status of their orders.
+📦 Order Tracking – Track order status in real-time.
 
-Salesforce Integration:
+🔗 Salesforce Integration:
 
-New customers are automatically created as Leads in Salesforce Sales Cloud.
+👥 Create Leads automatically in Salesforce.
 
-Orders are automatically created as Opportunities in Salesforce.
+💼 Orders are synced as Opportunities.
 
-Real-time order status updates are synced back to the dashboard.
+🔄 Real-time order updates reflected on the dashboard.
 
-Technologies Used
-
-Backend: Python (Flask)
-
-Frontend: HTML, CSS
-
-Database: SQLite
-
-Salesforce Integration: Salesforce REST API
-
-Setup Instructions
+🛠 Technologies Used
+Layer	Technology	Icon
+Backend	Python (Flask)	🐍
+Frontend	HTML, CSS	🌐
+Database	SQLite	🗄️
+Salesforce API	REST API	☁️
+⚡ Setup Instructions
 Prerequisites
 
-Python 3.7 or higher
+🐍 Python 3.7+
 
-Salesforce Developer Account
+🛠 Salesforce Developer Account
 
-Salesforce Connected App credentials (Client ID and Client Secret)
+🔑 Salesforce Connected App credentials
 
 Installation
 
-Clone the Repository:
+Clone the repository:
 
 git clone https://github.com/Habeebkhan1312/E-Commerce-Order-Management-with-Salesforce-CRM.git
 cd E-Commerce-Order-Management-with-Salesforce-CRM
 
 
-Install Dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
 
 
 Configure Salesforce Integration:
+Set up your Salesforce Connected App and get Client ID & Client Secret.
 
-Set up your Salesforce Connected App and obtain the Client ID and Client Secret.
-
-Set Up Environment Variables:
-
-Create a .env file in the root directory and add the following variables:
+Create .env file in root:
 
 SALESFORCE_CLIENT_ID=your_client_id
 SALESFORCE_CLIENT_SECRET=your_client_secret
@@ -64,6 +57,8 @@ SALESFORCE_USERNAME=your_salesforce_username
 SALESFORCE_PASSWORD=your_salesforce_password
 SALESFORCE_SECURITY_TOKEN=your_security_token
 
+
+⚠️ Never commit .env to GitHub!
 
 Initialize the Database:
 
@@ -75,21 +70,27 @@ Run the Application:
 python app.py
 
 
-The application will be accessible at http://localhost:5000.
+Open your browser at http://localhost:5000 🖥️
 
-Usage
+👩‍💻 Usage
 
-Browse Products: Navigate to the homepage to view available products.
+🛒 Browse products on the homepage.
 
-Place Orders: Select products and proceed to checkout to place an order.
+✅ Add products to cart and checkout.
 
-Track Orders: Log in to view and track the status of your orders.
+📊 Track order status after login.
 
-Contributing
+🤝 Contributing
 
-Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your proposed changes.
+Contributions are welcome! Please:
 
-License
+Fork the repo
 
-This project is licensed under the MIT License - see the LICENSE
- file for details.
+Create a new branch (git checkout -b feature-name)
+
+Submit a Pull Request
+
+📄 License
+
+This project is licensed under MIT License – see LICENSE
+ for details.
